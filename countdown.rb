@@ -1,5 +1,8 @@
 def countdown(number)
   number = 10 
-  until number == 10 
-  puts 
+  until number == 0 
+  puts "#{number} SECOND(S)!"
+  number -= 1 
+  end
+  
 end
